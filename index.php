@@ -14,6 +14,15 @@ Autoloader::register();
     <title>Bataillons</title>
 </head>
 <body>
+    <div class="container">
+    <?php
+    $soldat1=new Tirailleur;
+    $soldat2=new Soldat;
+    $soldat3=new Tirailleur;
+    $soldats=[$soldat1,$soldat2,$soldat3];
+    var_dump($soldats);
+    ?>  
+    </div>
     
     <!-- Latest compiled and minified JS -->
     <script src="//code.jquery.com/jquery.js"></script>
